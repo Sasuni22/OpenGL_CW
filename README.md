@@ -4,13 +4,13 @@ This project demonstrates a simple 3D animation using OpenGL and GLUT in C++. It
 This project is useful for learning basic computer graphics concepts such as:
 
 3D object rendering
-Lighting
-Camera positioning
-Animation using timers
-Depth testing
+/Lighting
+/Camera positioning
+/Animation using timers
+/Depth testing
 
 Technologies Used
 
 C++
-OpenGL
-GLUT (OpenGL Utility Toolkit)
+/OpenGL
+/GLUT (OpenGL Utility Toolkit)
