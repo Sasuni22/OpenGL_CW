@@ -4,7 +4,7 @@
 float angle = 0.0; 
 
 void init() {
-    glClearColor(0.0, 0.0, 1.0, 1.0); // Blue background
+    glClearColor(0.0, 0.0, 1.0, 1.0); 
     glEnable(GL_DEPTH_TEST);         // Enable depth testing
     glEnable(GL_LIGHTING);           // Enable lighting
     glEnable(GL_LIGHT0);             // Default light
