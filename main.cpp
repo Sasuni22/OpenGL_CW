@@ -1,7 +1,7 @@
 
 #include <GL/glut.h>
 
-float angle = 0.0; // Rotation angle
+float angle = 0.0; 
 
 void init() {
     glClearColor(0.0, 0.0, 1.0, 1.0); // Blue background
@@ -22,10 +22,10 @@ void display() {
               0.0, 1.0, 0.0);   // Up direction
 
     // Rotate the teapot
-    glRotatef(angle, 0.0, 1.0, 0.0); // Rotate around Y-axis
+    glRotatef(angle, 0.0, 1.0, 0.0); 
 
     // Set teapot color
-    glColor3f(1.0, 0.0, 0.0); // Red
+    glColor3f(1.0, 0.0, 0.0); 
 
     // Draw larger teapot
     glutSolidTeapot(3.0);
@@ -61,3 +61,4 @@ int main(int argc, char** argv) {
     glutMainLoop();
     return 0;
 }
+
